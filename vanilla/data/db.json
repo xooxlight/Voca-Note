@@ -1,0 +1,17 @@
+{
+  "days": [
+    {
+      "day": 1,
+      "id": 1
+    }
+  ],
+  "words": [
+    {
+      "day": 1,
+      "eng": "moon",
+      "kor": "달",
+      "isComplete": false,
+      "id": 1
+    }
+  ]
+}

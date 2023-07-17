@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+    <title>Voca Note</title>
+    <link rel="stylesheet" type="text/css" href="../css/common.css" />
+    <script type="text/javascript" src="../js/common.js"></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>Voca Note <span>: 단어 추가</span></h1>
+      <div class="btns">
+        <a href="dayList.html">돌아가기</a>
+      </div>
+      <div>
+        <form onsubmit="return false;">
+          <div class="inputWrap">
+            <label for="eng">Eng</label>
+            <input type="text" id="eng" placeholder="Moon" />
+          </div>
+          <div class="inputWrap">
+            <label for="kor">Kor</label>
+            <input type="text" id="kor" placeholder="달" />
+          </div>
+          <div class="inputWrap">
+            <label for="dayCount">Day</label>
+            <select id="dayCount"></select>
+          </div>
+          <div class="inputWrap">
+            <button type="submit" class="btnCreate" id="createWord">
+              단어 추가
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
