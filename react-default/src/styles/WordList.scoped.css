@@ -1,0 +1,71 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td {
+  width: 25%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 26px;
+  word-break: keep-all;
+}
+
+table td:first-child {
+  width: 10%;
+  vertical-align: middle;
+}
+
+table td button {
+  width: 88px;
+  margin: 0 5px;
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.complete td {
+  background: #eee;
+  color: #ccc;
+}
+
+.hide {
+  font-size: 0;
+  color: #fff;
+}
+
+.btnToggleItem {
+  color: #fff;
+  font-weight: bold;
+  background-color: #5e503f;
+}
+
+.btnToggleItem:disabled {
+  cursor: default;
+}
+
+tr:not(.complete) .btnToggleItem:hover {
+  background-color: #8b5e34;
+}
+
+.btnDeleteItem {
+  width: 58px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #660708;
+}
+
+.btnDeleteItem:hover {
+  background-color: #8d0801;
+}
+
+.text {
+  display: block;
+  margin: 0;
+  padding: 40px 0 60px;
+  text-align: center;
+  font-weight: bold;
+  color: #353535;
+}
